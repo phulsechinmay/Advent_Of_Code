@@ -7,20 +7,14 @@ from math import *
 dataPoint = input("Please enter the number to find the steps for: ")
 dataPoint = int(dataPoint)
 
-armLength = floor(sqrt(dataPoint)) if (floor(sqrt(dataPoint))%2 == 1) else ceil(sqrt(dataPoint))
-
-print(armLength)
+armLength = floor(sqrt(dataPoint)) if (floor(sqrt(dataPoint))%2 == 1) else ((sqrt(dataPoint)+1) if (sqrt(dataPoint)%2 == 0) else ceil(sqrt(dataPoint)))
 
 closestOddSquare = armLength**2;
-
-print(closestOddSquare)
 
 if(closestOddSquare<dataPoint):
 	armLength += 1
 
 difference = abs(closestOddSquare - dataPoint)
-
-print(difference)
 
 straightDistanceFromEntryPoint = int(floor(armLength/2)); # 
 
