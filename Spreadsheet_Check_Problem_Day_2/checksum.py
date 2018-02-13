@@ -1,6 +1,8 @@
 '''
+=============================================
 This is a solution script to the Day 2 problem of Advent Of Code. Part 1 is supposed to find the difference between the largest and smallest value in a row
 and add up all the differences
+=============================================
 '''
 
 file = open("test.txt")

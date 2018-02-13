@@ -22,4 +22,3 @@ totalSteps = abs(straightDistanceFromEntryPoint - (difference % (straightDistanc
 
 print('The total number of steps is %d' % (totalSteps))
 
-# Doesn't work for where the closest odd square is lower than the number. Check all cases
