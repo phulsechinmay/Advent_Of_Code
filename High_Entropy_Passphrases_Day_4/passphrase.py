@@ -7,7 +7,8 @@ Solution complexity: O(n) where n is number of words
 
 Part 2 has another condition for an invalid passphrase, where it's invalid if it contains words that are anagrams of each other
 
-Solution complexity: O(m log(m)) where m is the number of characters in the passphrase. This is mainly due to sorting every word in the passphrase
+Solution complexity: O(m log(m)) where m is the number of characters in the passphrase. This is mainly due to sorting every word in the passphrase.
+This can be done in O(m) time using a trie
 =============================================
 '''
 
